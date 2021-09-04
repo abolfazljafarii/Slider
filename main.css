@@ -47,6 +47,66 @@ video {
     border: .1rem solid #fff;
 }
 
+@media only screen and (max-width: 1000px) {
+    .next {
+        right: .5rem;
+    }
+    .prev {
+        left: .5rem;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .next {
+        right: .2rem;
+    }
+    .prev {
+        left: .2rem;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .next {
+        right: .1rem;
+    }
+    .prev {
+        left: .1rem;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .navigation {
+        bottom: 3vw;
+        width: 14rem;
+    }
+    .navigation div {
+        width: 2vw;
+        height: 2vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .navigation {
+        bottom: 2.5vw;
+        width: 12rem;
+    }
+    .navigation div {
+        width: 2.3vw;
+        height: 2.3vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .navigation {
+        bottom: 1.7vw;
+        width: 11rem;
+    }
+    .navigation div {
+        width: 3vw;
+        height: 3vw;
+    }
+}
+
 .select {
     background-color: #0074D9;
     border: .1rem solid #0074D9 !important;
